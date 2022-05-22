@@ -38,11 +38,11 @@ bytes  | 1 | 2 | 4 | 8
 * 浮點數<br>
 用來表示小數值，可以區分為 float、double 與 long double<br>
 
-Data type | float | double | long double 
---- | --- | --- | --- 
-bytes (32-bit UNIX) | 4 | 8 | 16 
-bytes (64-bit UNIX) | 4 | 8 | 16 
-bytes (64-bit Windows) | 4 | 8 | 8 
+Data type | half | float | double | long double 
+--- | --- | --- | --- | --- 
+bytes (32-bit UNIX) | 2 | 4 | 8 | 16 
+bytes (64-bit UNIX) | 2 | 4 | 8 | 16 
+bytes (64-bit Windows) | 2 | 4 | 8 | 8 
 <br>
 另外補充，size_t在 32-bit中是 4bytes, 在 64-bit中是 8bytes<br>
 <br>
@@ -63,4 +63,6 @@ bytes (64-bit Windows) | 4 | 8 | 8
 以下範例來自 [wiki](https://zh.wikipedia.org/zh-tw/%E5%96%AE%E7%B2%BE%E5%BA%A6%E6%B5%AE%E9%BB%9E%E6%95%B8)<br>
 ![圖片](./FLOAT格式.PNG)<br>
 <br>
+另外補充半精度浮點數half的例子<br>
+![圖片](./HALF格式.PNG)<br>
 <br>
