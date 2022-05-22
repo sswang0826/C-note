@@ -66,3 +66,17 @@ bytes (64-bit Windows) | 2 | 4 | 8 | 8
 另外補充半精度浮點數half的例子<br>
 ![圖片](./HALF格式.PNG)<br>
 <br>
+
+字面常數<br>
+=========
+在寫常數時可以在數字前面加東西，以說明他是多少進位的數字<br>
+```C++
+int eleven = 11  // 十進位
+int ten = 012 // 八進位
+int nineteen = 0x13 // 十六進位
+int six = 0b110 // 二進位
+```
+<br>
+
+
+
