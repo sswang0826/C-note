@@ -4,6 +4,7 @@
 基本資料型態可以區分為字元（Character）、整數（Integer）、浮點數（Float）<br>
 因為在不同系統上，size都會有不一致的情況<br>
 建議使用類似int16_t之類的來寫程式以避免跨平台的問題<br>
+
 以下參考 [這裡](https://www.ibm.com/docs/en/ibm-mq/9.0?topic=platforms-standard-data-types-unix-linux-windows)
 ，並整理介紹<br>
 日後在使用時請務必再次確認是否有改動<br>
@@ -58,5 +59,8 @@ bytes (64-bit Windows) | 4 | 8 | 8
 剩餘的23位數紀錄有效數字(fraction)，因為是科學記號所以最左邊一定是1(以二進位來看)，所以這個1不會儲存<br>
 因此實際上真的能記錄的有效位數是24位(二進位)<br>
 所以 2^128 ~ 3.4e+38，一般會說範圍是 e+38 ~ e-38<br>
+<br>
+以下範例來自 [wiki](https://zh.wikipedia.org/zh-tw/%E5%96%AE%E7%B2%BE%E5%BA%A6%E6%B5%AE%E9%BB%9E%E6%95%B8)<br>
+![圖片](./FLOAT格式.PNG)<br>
 <br>
 <br>
